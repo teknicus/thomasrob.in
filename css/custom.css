@@ -1,0 +1,38 @@
+:root {
+ 
+  
+
+}
+
+body {
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+
+    color: white;
+    text-align: center;
+}
+
+p{
+	
+    font-size: 20px;
+	    color: white;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 80vw;
+  height: 80vh;
+  padding-top: 5vh;
+  padding-left: 5vw;
+  margin-left:10%;
+  margin-top:10%; 
+}
+
+
+hlt{
+		font-family: 'Roboto', sans-serif;
+    color: red;
+}

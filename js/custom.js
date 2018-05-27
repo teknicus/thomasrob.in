@@ -1,3 +1,6 @@
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
   var typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
@@ -36,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('.loop').addEventListener('click', function() {
     toggleLoop(typed);
   });
+
 
   var typed2 = new Typed('#typed2', {
     strings: ['Some <i>strings</i> with', 'Some <strong>HTML</strong>', 'Chars &times; &copy;'],
@@ -83,6 +87,8 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+
+
 function prettyLog(str) {
   console.log('%c ' + str, 'color: green; font-weight: bold;');
 }
@@ -94,3 +100,44 @@ function toggleLoop(typed) {
     typed.loop = true;
   }
 }
+
+
+
+
+
+
+
+
+function toggleFullScreen() {
+	
+	
+  if ((document.fullScreenElement && document.fullScreenElement !== null) ||    
+   (!document.mozFullScreen && !document.webkitIsFullScreen)) {
+    if (document.documentElement.requestFullScreen) {  
+      document.documentElement.requestFullScreen();  
+    } else if (document.documentElement.mozRequestFullScreen) {  
+      document.documentElement.mozRequestFullScreen();  
+    } else if (document.documentElement.webkitRequestFullScreen) {  
+      document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);  
+    }  
+  } else {  
+    if (document.cancelFullScreen) {  
+      document.cancelFullScreen();  
+    } else if (document.mozCancelFullScreen) {  
+      document.mozCancelFullScreen();  
+    } else if (document.webkitCancelFullScreen) {  
+      document.webkitCancelFullScreen();  
+    }  
+  }  
+var element = document.getElementById("id01");
+element.innerHTML = "New Heading";
+
+
+
+
+}
+
+
+
+
+
