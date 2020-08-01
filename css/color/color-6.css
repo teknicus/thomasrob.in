@@ -1,0 +1,70 @@
+/*----- BackGround Color -----*/
+::-moz-selection {
+    background: #79B530;
+}
+::selection {
+    background: #79B530;
+}
+.navigation_area > .mainmenu_area .mainmenu > li > a::before,
+.btn-default,
+#section_scroller_button,
+.scroll_down:hover:before,
+.scroll_down:focus:before,
+.single_skill .progress_bar > span,
+.portfolio_work_nav > li > a::before,
+.single_contact_info > .icon {
+    background-color: #79B530 !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #333 !important;
+}
+
+.single_work:hover .overlay_icon {
+    background-color: rgba(121, 181, 48, 0.8) !important;
+}
+.testimonial_carousel .owl-dots > button {
+    background-color: rgba(121, 181, 48, 0.3) !important;
+}
+.testimonial_carousel .owl-dots > button.active {
+    background-color: rgba(121, 181, 48, 1) !important;
+}
+
+/*----- Text Color -----*/
+.site_logo > span,
+.navigation_area > .mainmenu_area .mainmenu > li > a.active,
+.header_social_share > li > a:hover,
+.scroll_down:hover, 
+.scroll_down:focus,
+.single_service .icon > span::before,
+.portfolio_work_nav > li > a:hover,
+.portfolio_work_nav > li > a.active,
+.single_work:hover .overlay_icon > .fa:hover,
+.single_contact_info .info > p a:hover,
+.footer_social_share > li > a:hover,
+.copyright a:hover,
+div.style-customizer a,
+.entry_post .entry_footer > .entry_meta a:hover,
+.social_share_area .share_btn:hover,
+.social_share_area .share_btn:hover .social_share > a:hover {
+    color: #79B530 !important;
+}
+.btn-default {
+    color: #fff;
+}
+.home_text_block .home_btn_group .btn-default:hover,
+.home_text_block .home_btn_group .btn-default:focus {
+    color: #79B530 !important;
+    background-color: #fff !important;
+}
+
+
+/*----- Border Color -----*/
+.single_service > .divider.divider_1:before,
+.single_service > .divider.divider_1 > span {
+    border: 2px solid rgba(121, 181, 48, 0.2);
+}
+.single_service > .divider.divider_2:before,
+.single_service > .divider.divider_2 > span {
+    border: 1px solid rgba(121, 181, 48, 0.15);
+}
